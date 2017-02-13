@@ -34,7 +34,7 @@ var DIV = function(){
 DIV();*/
 
 
-var BMI = function(){
+/*var BMI = function(){
     var weight = parseInt(prompt("enter your weight in pounds"));
     var height = parseInt(prompt("enter your height in feet"));
     var inches = parseInt(prompt("enter inches"))
@@ -52,4 +52,21 @@ var converter = function(){
     alert(far);
 };
 
-converter();
+converter(); */
+
+document.getElementById("p2").style.visibility = "hidden";
+
+$(function(){
+
+  $("").click(function(){
+
+
+
+  $("#equal").click(function(){
+    $(".p2").show();
+  });
+
+
+
+
+});
